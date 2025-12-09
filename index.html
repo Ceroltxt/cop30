@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COP30 - Ação Climática Global</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#palestrantes">Palestrantes</a></li>
+                <li><a href="#beneficios">Benefícios</a></li>
+                <li><a href="#cadastro">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1>Junte-se à COP30: Moldando o Futuro Sustentável</h1>
+                <p>Participe da maior conferência sobre mudanças climáticas. Aprenda, conecte-se e ajude a construir soluções globais para um planeta mais verde.</p>
+                <a href="#cadastro" class="button">Inscreva-se Agora</a>
+            </div>
+        </section>
+
+      
+        <section id="sobre">
+            <h2>O que é a COP30?</h2>
+            <p>A COP30 é uma conferência internacional organizada pela UNFCCC, reunindo líderes, cientistas e ativistas para discutir ações contra as mudanças climáticas. Foco em educação, mitigação e adaptação para um futuro sustentável.</p>
+        </section>
+
+        <section id="agenda">
+            <h2>Agenda Principal</h2>
+            <div id="agenda-cards" class="cards-container"></div>
+        </section>
+
+        
+        <section id="palestrantes">
+            <h2>Palestrantes Inspiradores</h2>
+            <div id="palestrantes-cards" class="cards-container"></div>
+        </section>
+
+        
+        <section id="beneficios">
+            <h2>Por que Participar?</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <h3>Networking Global</h3>
+                    <p>Conecte-se com líderes mundiais e construa parcerias para ações climáticas.</p>
+                </div>
+                <div class="card">
+                    <h3>Conhecimento Atual</h3>
+                    <p>Acesse palestras e workshops sobre as últimas inovações em sustentabilidade.</p>
+                </div>
+                <div class="card">
+                    <h3>Impacto Real</h3>
+                    <p>Contribua para decisões que moldam políticas globais contra as mudanças climáticas.</p>
+                </div>
+            </div>
+        </section>
+
+      
+        <section id="cadastro">
+            <h2>Inscreva-se para Participar</h2>
+            <form id="registration-form">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="uf">UF:</label>
+                <select id="uf" name="uf" required>
+                    <option value="">Selecione</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                </select>
+                <button type="submit">Enviar Inscrição</button>
+            </form>
+        </section>
+
+      
+    </main>
+
+    <footer>
+        <p>&copy; 2023 COP30. Todos os direitos reservados. | <a href="#hero" id="back-to-top">Voltar ao Topo</a></p>
+    </footer>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 id="modal-title"></h3>
+            <p id="modal-description"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

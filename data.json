@@ -1,0 +1,26 @@
+{
+    "agenda": [
+        {
+            "titulo": "Sessão de Abertura",
+            "descricao": "Introdução aos temas principais.",
+            "detalhes": "Detalhes completos sobre a sessão de abertura, incluindo horários e objetivos."
+        },
+        {
+            "titulo": "Painel sobre Mitigação",
+            "descricao": "Discussões sobre redução de emissões.",
+            "detalhes": "Painel com especialistas discutindo estratégias de mitigação climática."
+        }
+    ],
+    "palestrantes": [
+        {
+            "nome": "Dr. João Silva",
+            "bio": "Especialista em mudanças climáticas.",
+            "detalhes": "Biografia completa e contribuições do palestrante."
+        },
+            {
+                "nome": "Dra Cecilia Costa Neves",
+                "bio": "Especialista em Rock Ambiental",
+                "detalhes": "Harmonização de solos vegetativos"
+            }
+        ]
+    }
