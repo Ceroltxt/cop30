@@ -45,7 +45,7 @@ nav a:hover {
 
 
 #hero {
-    background-image: url("./imgs/logo.png");
+    background-image: url("logo.png");
     background-position: left;
     height: 70vh;
     background-color: #e3e1dd;
@@ -238,4 +238,5 @@ footer {
     .hero h1 {
         font-size: 3rem;
     }
+
 }
